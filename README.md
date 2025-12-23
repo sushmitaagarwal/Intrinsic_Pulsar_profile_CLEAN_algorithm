@@ -1,7 +1,7 @@
 ## CLEAN-based Deconvolution of Scatter-Broadened Pulsar Profiles
 ### Overview
 
-This repository contains a Python implementation of a CLEAN-based deconvolution algorithm to recover intrinsic pulsar pulse profiles affected by interstellar scattering. The approach follows the methodology introduced by Bhat et al. (2003) and later refinements, using iterative CLEAN components, pulse broadening functions (PBFs), and physically motivated stopping criteria.
+This repository contains a Python implementation of a CLEAN-based deconvolution algorithm to recover intrinsic pulsar pulse profiles affected by interstellar scattering. The approach follows the methodology introduced by Bhat et al. (2003) and later refinements, using iterative CLEAN components, pulse broadening functions (PBFs), and physically motivated stopping criteria as described in Bathula et al. 2025.
 
 The code demonstrates the full pipeline: **profile simulation + scattering + noise injection → CLEAN decomposition → Intrinsic Profile restoration**.
 
